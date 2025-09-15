@@ -1,0 +1,70 @@
+    
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    background: #f0f4f8;
+    color: #222;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+header {
+    background: #3a6ea5;
+    color: #fff;
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 8px #2222;
+}
+nav {
+    background: #28527a;
+    padding: 0.5em 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd166;
+}
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #2221;
+    padding: 2em;
+}
+h2 {
+    color: #3a6ea5;
+    margin-top: 0;
+}
+img.biografia {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 1em 0;
+    box-shadow: 0 2px 8px #2222;
+}
+ul {
+    padding-left: 1.5em;
+}
+footer {
+    background: #28527a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-size: 1.1em;
+}
